@@ -1,0 +1,43 @@
+[33m5838bd0[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{0}: pull origin dev: Fast-forward
+[33mcf3ae74[m HEAD@{1}: commit: form multi paso y multi viajero funcionando - resta validar
+[33md565e43[m HEAD@{2}: pull origin dev: Fast-forward
+[33m6bff9df[m HEAD@{3}: commit: bestseller-recom
+[33mb4da779[m HEAD@{4}: pull origin dev: Merge made by the 'recursive' strategy.
+[33mc00cff6[m HEAD@{5}: commit: form multi pasajero - falta persistencia de estados y validaciones
+[33ma71af7b[m HEAD@{6}: commit: cambio spinner
+[33m37066c4[m HEAD@{7}: pull origin dev: Merge made by the 'recursive' strategy.
+[33m1173f42[m HEAD@{8}: commit: spinner nuevo - form multi pasajero
+[33ma8e9982[m HEAD@{9}: commit: fix compartir localStorage
+[33m94f835c[m HEAD@{10}: pull origin dev: Merge made by the 'recursive' strategy.
+[33m5517cea[m HEAD@{11}: commit: compartir fix
+[33m0f7f41f[m HEAD@{12}: commit: share parameter
+[33mf395446[m HEAD@{13}: commit: cambio logo
+[33me2fb76f[m HEAD@{14}: commit: share cotizacion
+[33m39af1e5[m HEAD@{15}: commit: fix
+[33m27047b9[m HEAD@{16}: commit (merge): merge
+[33md2207cf[m HEAD@{17}: commit: validate & fix
+[33m18303d6[m HEAD@{18}: pull origin dev: Fast-forward
+[33m0c8275e[m HEAD@{19}: commit: fix bugs, validacion y planes
+[33mebb3795[m HEAD@{20}: commit: fix image
+[33mec07199[m HEAD@{21}: commit: textos de api, url en env y spinner | hacer npm install antes de compilar
+[33m6219d72[m HEAD@{22}: commit: fix error modalidad
+[33mdd6d003[m HEAD@{23}: commit: optimizacion modalidades, regiones y layout
+[33m5db7a18[m HEAD@{24}: commit: fix header y crash home
+[33m7f091cc[m HEAD@{25}: pull origin dev: Fast-forward
+[33m65f836c[m HEAD@{26}: commit: optimizacion peticiones y recargas de componentes
+[33m09c0021[m HEAD@{27}: commit: uso axios y peticiones a testear prod
+[33m23951b5[m HEAD@{28}: commit: consumiendo api europ
+[33m3ea7051[m HEAD@{29}: pull origin dev: Fast-forward
+[33m9929794[m HEAD@{30}: commit (merge): merge
+[33m4654830[m HEAD@{31}: commit: planes con datos api
+[33m5ff06ea[m HEAD@{32}: commit: gracias fix y cambio en env
+[33m2ec367a[m HEAD@{33}: commit: fetch a api flexy
+[33mcd4b539[m HEAD@{34}: commit (merge): merge
+[33m52632b5[m HEAD@{35}: commit: cambios fetchs y configs en cookies
+[33mfa7f2cd[m HEAD@{36}: commit (merge): merging
+[33ma201d3d[m HEAD@{37}: commit: fetch iniciales - construccion cotizacion
+[33m080602b[m HEAD@{38}: commit: fix z-index
+[33m8fe52e3[m HEAD@{39}: commit (merge): merge
+[33m97c784f[m HEAD@{40}: commit: formPrincipal con detalles
+[33m3331e20[m HEAD@{41}: checkout: moving from master to dev
+[33md756e9c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{42}: clone: from https://bitbucket.org/flowdevs/europ-front.git

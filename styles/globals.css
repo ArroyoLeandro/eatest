@@ -1,0 +1,199 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+
+@import url('/assets/iconos/iconos.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('/assets/fonts/DaxlinePro-Black.woff') format('woff'), url('/assets/fonts/DaxlinePro-Black.woff2') format('woff2'), url('/assets/fonts/DaxlinePro-Black.eot'), url('/assets/fonts/DaxlinePro-Black.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/DaxlinePro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('/assets/fonts/DaxlinePro-ExtraBold.woff') format('woff'), url('/assets/fonts/DaxlinePro-ExtraBold.woff2') format('woff2'), url('/assets/fonts/DaxlinePro-ExtraBold.eot'), url('/assets/fonts/DaxlinePro-ExtraBold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/DaxlinePro-ExtraBold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('/assets/fonts/DaxlinePro-Medium.woff') format('woff'), url('/assets/fonts/DaxlinePro-Medium.woff2') format('woff2'), url('/assets/fonts/DaxlinePro-Medium.eot'), url('/assets/fonts/DaxlinePro-Medium.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/DaxlinePro-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('/assets/fonts/DaxlinePro-Regular.woff') format('woff'), url('/assets/fonts/DaxlinePro-Regular.woff2') format('woff2'), url('/assets/fonts/DaxlinePro-Regular.eot'), url('/assets/fonts/DaxlinePro-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/DaxlinePro-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+}
+
+html {
+    font-family: 'DaxlinePro', Arial, Helvetica, sans-serif;scroll-behavior: smooth;
+}
+div#__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.btn {
+    @apply rounded-lg transition-all duration-300
+}
+.btn-amarillo {
+@apply bg-amarillo text-white hover:bg-principal focus:bg-principal focus:outline-none
+}
+.btn-gris {
+    @apply bg-gris-claro text-gris-medio hover:text-gris-oscuro focus:text-gris-oscuro hover:bg-gris-medio hover:bg-opacity-40 focus:bg-gris-medio focus:bg-opacity-40 outline-none focus:outline-none disabled:text-gris-medio disabled:hover:bg-gris-claro  disabled:focus:bg-gris-claro
+}
+.btn-celeste {
+    @apply bg-celeste text-white hover:bg-principal focus:bg-principal focus:outline-none
+}
+.btn-principal {
+    @apply bg-principal text-white hover:bg-secundario focus:bg-secundario focus:outline-none
+    }
+.animate-topIn {
+    animation: topIn .2s ease-in;
+}
+
+@media (min-width: 1024px) { 
+    .lg\:animate-topIn {
+        animation: topIn .2s ease-in;
+    }    
+ }
+ @media (min-width: 640px) { 
+    .sm\:animate-topIn {
+        animation: topIn .2s ease-in;
+    }    
+ }
+@keyframes topIn {
+    from {
+    /* transform: translateY(-5rem); */
+    margin-top: 0rem;
+    opacity: 0;
+    }
+    to {
+    /* transform: translateY(-100%); */
+    margin-top: -5rem;
+    opacity: 1;
+    }
+}
+.animate-topOut {
+    animation: topOut .2s ease-in;
+}
+.lg\:animate-topOut {
+    animation: topOut .2s ease-in;
+}
+@keyframes topOut {
+    from {
+    transform: translateY(0%);
+    opacity: 1;
+    }
+    to {
+    transform: translateY(20%);
+    opacity: 0;
+    }
+}
+.animate-botIn {
+    animation: botIn .2s ease-in;
+}
+
+@media (min-width: 1024px) { 
+    .lg\:animate-botIn {
+        animation: botIn .2s ease-in;
+    }    
+ }
+ @media (min-width: 640px) { 
+    .sm\:animate-botIn {
+        animation: botIn .2s ease-in;
+    }    
+ }
+@keyframes botIn {
+    from {
+    /* transform: translateY(-5rem); */
+    margin-top: -5rem;
+    opacity: 0;
+    }
+    to {
+    /* transform: translateY(-100%); */
+    margin-top: -4px;
+    opacity: 1;
+    }
+}
+details summary::marker, details summary::-webkit-details-marker {
+    content:'';
+    display: none;;
+}
+
+/* borde blanco para texto */
+.border-text {-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: white;}
+
+/* quito las flechas de los input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; }
+
+/* adapto la tarjeta del formulario */
+.rccs, .rccs__card {
+    max-width:100%;
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+input:autofill {
+    @apply bg-white filter-none
+}
+input:autofill ~ span,
+input:-webkit-autofill ~ span,
+input:-webkit-autofill:hover ~ span, 
+input:-webkit-autofill:focus ~ span {
+   @apply -translate-y-2 scale-75 bg-white py-0;
+}
+
+/* personalizo estilos de select buscador */
+.selector {
+    height:50px
+}
+.selector div[class$="-control"] {
+    @apply w-full h-full py-1 border border-principal rounded focus:outline-none focus:border-gris-medio shadow-none
+}
+.selector div[class$="-control"]:hover {
+    @apply h-full border border-principal rounded focus:outline-none focus:border-gris-medio shadow-none
+}
+.selector div[class$="-control"]:focus {
+    @apply h-full border rounded outline-none border-gris-medio shadow-none
+}
+.selector div[id$="-listbox"] {
+    @apply absolute z-50 bg-white border border-t-0 border-principal rounded-b w-full h-auto
+}
+
+.selector div[class$="-Input"] {
+    @apply m-0 p-0 text-current cursor-text
+}
+.selector div[class$="-ValueContainer"] {
+    @apply pt-0 pb-0 px-4
+}
+/* date range */
+.rdrCalendarWrapper .rdrMonthAndYearWrapper {
+    height: 40px;
+}
+.rdrMonthsHorizontal .rdrMonth {
+    @apply min-w-full sm:min-w-0
+}

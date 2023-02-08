@@ -1,0 +1,99 @@
+{   
+    "preHome": {
+        "hola": "¡Hola!",
+        "selecciona": "Seleccioná tu país"
+    },
+    "menu": {
+        "titulo": "MENU",
+        "quienesSomos": "Quienes Somos",
+        "coberturas": "Nuestras Coberturas",
+        "faq": "Preguntas Frecuentes",
+        "baja": "Botón de Arrepentimiento",
+        "contacto": "Contacto",
+        "marca": "Europ Asistance"
+    },
+    "redes": {
+        "seguinos": "SEGUINOS EN"
+    },
+    "buttons": {
+        "anterior": "Anterior",
+        "pagar": "Pagar"
+    },
+    "formContratar": {
+        "datosFacturacion": "Datos de facturación",
+        "estascerca": "Estas muy cerca de tu viaje",
+        "formaPago": "Forma de pago",
+        "formaPagoSubtitulo": "Estás a un paso de contratar tu asistencia. Tené a disposición la tarjeta con que se efecturá el pago.",
+        "cuotas": "Cuotas",
+        "tipoTarjeta": "Tipo de Tarjeta",
+        "vtoMes": "Mes de Vencimiento",
+        "vtoAnio": "Año de Vencimiento",
+        "titularTarjeta": "Datos del titular",
+        "completarPasajero": "Debe completar todos los campos de",
+        "estadia": "Estadía de",
+        "del": "del"
+    },
+    "formContacto":{
+        "sendSuccess":"A la brevedad nos comunicaremos con vos",
+        "sendError":"Ocurrio un error al enviar el email"
+    },
+    "pageQuienes": {
+        "tituloA": "Somos la empresa",
+        "tituloB": "creadora del concepto",
+        "tituloC": "de asistencia al viajero.",
+        "parrafo1": "Nuestra compañía fué fundada en Francia en 1963 por Pierre Desnos. Por primera vez en el mundo comenzamos a ofrecer protección a las personas que viajaban al extranjero. Desde entonces, respaldamos a nuestros clientes en más de 200 países y territorios gracias a nuestra red de 750.000 proveedores y 39 centros de asistencia.",
+        "parrafo2": "Como compañía tenemos el objetivo de cuidar a las personas, buscando siempre facilitar la vida a nuestros clientes ofreciendo calma antes situaciones estresantes o difíciles, brindando un servicio altamente profesional.",
+        "mision": "MISIÓN & VISIÓN",
+        "tobe": "TO BE THE MOST RELIABLE CARE COMPANY IN THE WORLD",
+        "mision_parrafoA": "Somos y queremos seguir siendo la empresa de asistencia referente en el mercado.",
+        "mision_parrafoB": "Tenemos como",
+        "mision_parrafoB_bold": "misión estar siempre disponibles, en cualquier momento y en cualquier circunstancia.",
+        "mision_parrafoC": "Esta es la base de la relación con nuestros clientes y nuestra razón de ser.",
+        "from": "FROM DISTRESS TO RELIEF ANYTIME ANYWHERE",
+        "from_parrafo1": "Durante más de 50 años hemos estado ofreciendo asistencia y ayuda a millones de personas alrededor del mundo. Nuestro ADN no ha cambiado desde que se fundó la compañía y estamos orgullosos de lo que hacemos. Nos dedicamos a cuidar a las personas, a facilitarles la vida a nuestros clientes proporcionándoles tranquilidad y seguridad.",
+        "parrafo3": "Nuestras asistencias al viajero se encuentran permanentemente actualizadas y siempre adaptadas a las necesidades de los consumidores. Por que sabemos que no todos necesitamos lo mismo, contamos con una amplia variedad de planes y Upgrades para que cada una de las personas pueda armar el plan de viaje más acorde a sus necesidades y momentos.",
+        "parrafo4A": "En 1997, desembarca",
+        "parrafo4_bold": " Europ Assistance ",
+        "parrafo4B": "en Argentina, lugar desde el cuál se desarrolla la región de LATAM.",
+        "datos": "ALGUNOS DATOS QUE HABLAN POR NOSOTROS:",
+        "item1": "Países",
+        "item1_textA": "Y territorios cubiertos",
+        "item1_textB": "por nuestros representantes.",
+        "item2": "Millones",
+        "item2_text": "de usuarios activos.",
+        "item3": "Millones",
+        "item3_text": "de usuarios activos.",
+        "item4": "Intervención",
+        "item4_textA": "cada 2 segundos ",
+        "item4_textB": " en el mundo.",
+        "item5": "coordinadores de asistencia.",
+        "item6": "empleados.",
+        "item7": "corresponsales y sucursales.",
+        "item8": "proveedores de servicios.",
+        "item9": "llamadas atendidas por segundo.",
+        "item10": "centros de soporte."
+    },
+    "pagePlanes": {
+        "tituloA": "NUESTROS",
+        "tituloB": "PLANES",
+        "parrafo1": "Viajá con la empresa creadora del concepto de asistencia al viajero. Conocé nuestros planes: ",
+        "parrafo2": "Tus necesidades a la hora de realizar un viaje siempre son nuestra prioridad. Es por eso que contamos con todo tipo de asistencias al viajero adaptadas especialmente para vos y tu forma de viajar: lugares exóticos o tradicionales, solo o acompañado, con niños o sólo adultos, por ocio, trabajo o estudios. Te cuidamos en cualquier parte del mundo las 24h.",
+        "upgradesA": "NUESTROS",
+        "upgradesB": "UPGRADES",
+        "parrafo3": "Durante más de 50 años hemos estado ofreciendo asistencia y ayuda a millones de personas alrededor del mundo. Nuestro ADN no ha cambiado desde que se fundó la compañía y estamos orgullosos de lo que hacemos. Nos dedicamos a cuidar a las personas, a facilitarles la vida a nuestros clientes proporcionándoles tranquilidad y seguridad.",
+        "item1": "ADICIONAL POR ENFERMEDADES PRE-EXISTENTES.",
+        "item1_parrafo": "Contamos con 3 tipos de adicionales en este caso, de U$S 10.000, U$S 20.000 y U$S 30.000. Este beneficio fué desarrollado pensando en personas que con enfermedades pre-existentes y quieran o prefieran sumar a su plan un adicional extra para viajar con mayor tranquilidad. Podrían optar por cualquiera de las 3 opciones disponibles.",
+        "item2": "UP GRADE DEPORTES PROFESIONALES.",
+        "item2_parrafo": "Este beneficio fué desarrollado especialmente para acompañar a deportistas profesionales que viajan a realizar sus prácticas deportivas, para que puedan seguir haciéndolo pero siempre: protegidos.",
+        "item3": "EXTRA TOTAL CANCELATION - JUSTAS CAUSAS.",
+        "item3_parrafo": "Contamos con adicionales para cubrirte frente a cancelaciones, pueden ser de U$S 1.000, U$S 2.000, U$S 3.000, U$S 4.000 y U$S 5.000. Porque imprevistos pueden haber y queremos que puedas seguir viajando, es que desarrollamos este adicional.",
+        "item4_parrafoA": "Como seguramente te diste cuenta, no contamos con un Upgrade para",
+        "item4_parrafoA_bold": "embarazadas, ",
+        "item4_parrafoB": "porque si te fijás, ",
+        "item4_parrafoB_bold": "lo incluimos en todas las asistencias, cubriendo hasta 32 semanas de embarazo.",
+        "europ": "Europ Assistance ",
+        "europ_parrafo": "es la empresa creadora de la asistencia al viajero, y por ese motivo cuenta con la mayor trayectoria y experiencia en la creación de planes.",
+        "europ_todavia": "¿Todavía no viajaste con nosotros?",
+        "europ_button": "Cotizá ahora tu asistencia al viajero y viví la experiencia Europ"
+    }
+}
