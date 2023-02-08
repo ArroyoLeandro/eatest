@@ -149,13 +149,13 @@ export default function Footer(props) {
             <div className="lg:pl-10 lg:pt-6 pb-6 lg:pb-0 flex-1">
             <ul className='lg:grid grid-flow-col grid-rows-3 auto-cols-max gap-x-10'>
               {/* <li><Link href='/quienes-somos'><a className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.quienesSomos")}</a></Link></li> */}
-              <li><Link href={{ pathname: '/[userId]/nuestras-coberturas',query: { userId: codigoUserParam}}}><a className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.coberturas")}</a></Link></li>
-              <li><Link href={{ pathname: '/[userId]/preguntas-frecuentes',query: { userId: codigoUserParam}}}><a className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.faq")}</a></Link></li>
+              <li><a href={{ pathname: '/[userId]/nuestras-coberturas',query: { userId: codigoUserParam}}} className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.coberturas")}</a></li>
+              <li><a href={{ pathname: '/[userId]/preguntas-frecuentes',query: { userId: codigoUserParam}}} className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.faq")}</a></li>
               {pais?.toLowerCase() == 'argentina' 
               &&
-                <li><Link href={{ pathname: '/[userId]/arrepentimiento',query: { userId: codigoUserParam}}}><a className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.baja")}</a></Link></li>
+                <li><a href={{ pathname: '/[userId]/arrepentimiento',query: { userId: codigoUserParam}}} className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.baja")}</a></li>
               }
-              <li><Link href={{ pathname: '/[userId]/contacto',query: { userId: codigoUserParam}}}><a className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.contacto")}</a></Link></li>
+              <li><a href={{ pathname: '/[userId]/contacto',query: { userId: codigoUserParam}}}className="block py-1 lg:py-0 hover:text-principal-claro focus:text-principal-claro focus:outline-none">{t("menu.contacto")}</a></li>
             </ul>
           </div>
             :null}

@@ -208,12 +208,10 @@ export default function Header(props) {
                             <img src="/assets/images/europ-assitance.svg" alt={t("menu.marca")} className='w-28' />
                         </div>
                         :
-                        <Link href={'/' + Country.toUpperCase()}>
-                            <a className='flex items-center p-2 gap-2'>
+                        <a href={'/' + Country.toUpperCase()} className='flex items-center p-2 gap-2'>
                             <img src="/assets/images/europ-assitance.svg" alt={t("menu.marca")} className='w-28' />
                             {config != null && config.logo != null && !isCountry && <img id="img_logo2"  src={`${urlAssets}${config.logo}`} alt={t("menu.marca")} className='w-28'  />}
-                            </a>
-                        </Link>
+                        </a>
                 }
             </div>
             {props.page !== '/' && <>
@@ -246,13 +244,13 @@ export default function Header(props) {
                                 <nav role='navigation' className={`hidden lg:block absolute left-1/2 -translate-x-1/2 w-full mt-4 text-sm xl:text-base overflow-hidden transition-all ease-in-out ${openMenu ? "max-h-max opacity-100" : "max-h-0 opacity-0"}`} aria-label='Navegación principal'>
                                     <ul className="nav nav-tabs w-full flex gap-6 items-center justify-center mb-4" id="navMenu">
                                         {/* <li><Link href='/quienes-somos'><a className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.quienesSomos")}</a></Link></li> */}
-                                        <li><Link href={{ pathname: '/[userId]/nuestras-coberturas',query: { userId: currentCountry}}}><a className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.coberturas")}</a></Link></li>
-                                        <li><Link href={{ pathname: '/[userId]/preguntas-frecuentes',query: { userId: currentCountry}}}><a className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.faq")}</a></Link></li>
+                                        <li><a href={{ pathname: '/[userId]/nuestras-coberturas',query: { userId: currentCountry}}} className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.coberturas")}</a></li>
+                                        <li><a href={{ pathname: '/[userId]/preguntas-frecuentes',query: { userId: currentCountry}}} className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.faq")}</a></li>
                                         {Country.toLowerCase() == 'argentina' &&
                                             <li>
-                                                <Link href={{ pathname: '/[userId]/arrepentimiento',query: { userId: currentCountry}}}><a className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.baja")}</a></Link></li>
+                                                <a href={{ pathname: '/[userId]/arrepentimiento',query: { userId: currentCountry}}} className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.baja")}</a></li>
                                         }
-                                        <li><Link href={{ pathname: '/[userId]/contacto',query: { userId: currentCountry}}}><a className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.contacto")}</a></Link></li>
+                                        <li><a href={{ pathname: '/[userId]/contacto',query: { userId: currentCountry}}} className="text-principal hover:text-secundario focus:text-secundario focus:outline-none">{t("menu.contacto")}</a></li>
                                     </ul>
                                 </nav>
                                 : null}
