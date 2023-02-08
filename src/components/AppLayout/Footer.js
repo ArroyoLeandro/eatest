@@ -1,4 +1,3 @@
-import Link from 'next/Link';
 import { useEffect,useState} from 'react'
 import Cookie from 'js-cookie';
 import {useConfig} from '../../context/configContext'

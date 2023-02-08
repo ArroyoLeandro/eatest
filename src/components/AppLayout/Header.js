@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import Link from 'next/Link';
 import PaisesItem from '../PaisesItem';
 import Cookie from 'js-cookie';
 import { useConfig } from '../../context/configContext'
