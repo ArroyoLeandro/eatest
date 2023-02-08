@@ -340,7 +340,7 @@ export async function getInitialProps(ctx) {
 
     return {
       props: {
-        page: userId || null
+        params
       }
     };
   }
