@@ -21,6 +21,9 @@ import {useLoading} from '../../context/loadingContext'
 // import {paises} from '../../lib/trackId'
 
 import Loading from '../../components/Loading';
+
+
+
 export default function Home (props){
   const [t, i18n] = useTranslation('global');
     
@@ -334,13 +337,29 @@ export default function Home (props){
     )
    
 }
-export async function getInitialProps(ctx) {
+
+export async function getStaticPaths() {
+    const PAGE_ROUTES = [{
+        
+    }]
+    const paths = Object.values(PAGE_ROUTES)
+    .map(route => [{ params: { pageRoute: route } }])
+    return {
+    
+        paths: paths,
+        fallback: true
+      }
+    
+  }
+
+export async function getStaticProps(ctx) {
     const { params } = ctx
     const { userId } = params
-
     return {
       props: {
         params
       }
     };
   }
+
+  
